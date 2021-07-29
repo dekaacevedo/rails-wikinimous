@@ -1,0 +1,11 @@
+<div class="d-flex flex-column align-items-center mt-5">
+  <div class="width">
+    <% @articles.each do |article| %>
+      <%= link_to article.title, article_path(article) %>
+      <p> <%= article.content %> </p>
+    <% end -%>
+  </div>
+
+</div>
+
+

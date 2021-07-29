@@ -1,0 +1,27 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+p {
+  margin: 0;
+}
+
+.nav-bar {
+  color: #5E5E5E;
+  font-size: 18px;
+}
+
+.nav-bar .link {
+  color: #5E5E5E;
+  text-decoration: none;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+.articles {
+  margin: auto;
+}
+
+.width {
+  width: 700px;
+}
