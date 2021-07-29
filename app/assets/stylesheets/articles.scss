@@ -2,20 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+
+
 p {
   margin: 0;
 }
 
-.nav-bar {
-  color: #5E5E5E;
-  font-size: 18px;
-}
-
-.nav-bar .link {
+.nav-bar .new_article {
   color: #5E5E5E;
   text-decoration: none;
   font-size: 14px;
   padding-right: 5px;
+}
+
+.nav-bar .new_article:hover {
+  color: #2d2d2d;
 }
 
 .articles {
@@ -24,4 +25,39 @@ p {
 
 .width {
   width: 700px;
+}
+
+.title {
+  color: #5E5E5E;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.title:hover {
+  color: #2d2d2d;
+}
+
+.article_title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  color: #377fbf;
+  text-decoration: none;
+}
+
+.article_title:hover {
+  color: #23527C;
+  text-decoration: underline;
+}
+.article_content {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.article_title_show {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+}
+
+.font-size {
+  font-size: 20px;
 }
